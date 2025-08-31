@@ -18,18 +18,28 @@
       <div class="container">
          <nav class="nav" aria-label="header navigation">
             <ul class="nav__list" aria-label="header navigation list">
-               <li class="nav__item"><a href="#" class="nav__link" aria-label="link to home">Home</a></li>
-               <li class="nav__item"><a href="#" class="nav__link" aria-label="link to about">About</a></li>
-               <li class="nav__item"><a href="#" class="nav__link" aria-label="link to history">History</a></li>
-               <li class="nav__item"><a href="#" class="nav__link" aria-label="link to Portfolio">Portfolio</a></li>
-               <li class="nav__item"><a href="#" class="nav__link" aria-label="link to contacts">Contacts</a></li>
+               <li class="nav__item">
+                  <a href="#home-id" class="nav__link" aria-label="link to home">Home</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#about-id" class="nav__link" aria-label="link to about">About</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#history-id" class="nav__link" aria-label="link to history">History</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#portfolio-id" class="nav__link" aria-label="link to Portfolio">Portfolio</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#contacts-id" class="nav__link" aria-label="link to contacts">Contacts</a>
+               </li>
             </ul>
          </nav>
       </div>
    </header>
 
    <main aria-label="main">
-      <section class="home" aria-label="home section">
+      <section class="home" aria-label="home section" id="home-id">
          <div class="container">
             <h1 class="home-title" aria-label="title">
                Ivan Constantinovich Aivazovski
@@ -40,7 +50,7 @@
             <img class="home-img" src="assets/webp/home.webp" alt="">
          </div>
       </section>
-      <section class="about" aria-label="about-section">
+      <section class="about" aria-label="about-section" id="about-id">
          <div class="container">
             <h2 class="about-title" aria-label="about title">
                About
@@ -63,8 +73,73 @@
             </p>
          </div>
       </section>
+      <section class="history" aria-label="section history" id="history-id">
+         <div class="container">
+            <h2 class="history-title" aria-label="history title">
+               History
+            </h2>
+            <img src="assets/webp/history.webp" alt="" class="history-img">
+            <p class="history-description" aria-label="history description">
+               Дом в&nbsp;котором родился Айвазовский&nbsp;| The house where Aivazovsky was born
+            </p>
+         </div>
+      </section>
+      <section class="portfolio" aria-label="section portfolio" id="portfolio-id">
+         <div class="container">
+            <h2 class="portfolio-title" aria-label="portfolio title">
+               Portfolio
+            </h2>
+            <img src="assets/webp/portfolio-1.webp" alt="Winter wagon train on the way, 1857" class="portfolio-img">
+            <p class="portfolio-description" aria-label="portfolio description">
+               Зимний обоз в&nbsp;пути, 1857&nbsp;г.&nbsp;| Winter wagon train on&nbsp;the way, 1857
+            </p>
+            <img src="assets/webp/portfolio-2.webp" alt="Rainbow, 1873" class="portfolio-img">
+            <p class="portfolio-description" aria-label="portfolio description">
+               Радуга, 1873 г. | Rainbow, 1873
+            </p>
+            <img src="assets/webp/portfolio-3.webp" alt=" Gulf of Naples in the morning, 1893" class="portfolio-img">
+            <p class="portfolio-description" aria-label="portfolio description">
+               Неаполитанский залив утром, 1893&nbsp;г.&nbsp;| Gulf of&nbsp;Naples in&nbsp;the morning, 1893
+            </p>
+         </div>
+      </section>
    </main>
-   <footer></footer>
+   <footer class="contacts" aria-label="contacts section" id="contacts-id">
+      <div class="container">
+         <h2 class="contacts-title">Contacts</h2>
+         <button class="contacts-btn">
+            <a href="http://ayvazovskiy.su" class="button-link" target="_blank">
+               ayvazovskiy.su
+            </a>
+         </button>
+
+         <address class="socials" aria-label="social icons">
+            <a href="https://youtube.com" target="_blank" aria-label="link to youtube">
+               <svg class="social-icon" aria-label="youtube icon">
+                  <use href="assets/sprites.svg#youtube-icon"></use>
+               </svg>
+            </a>
+            <a href="https://linkidin.com" target="_blank" aria-label="link to linkidin">
+               <svg class="social-icon" aria-label="linkidin icon">
+                  <use href="assets/sprites.svg#linkidin-icon"></use>
+               </svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="link to instagram">
+               <svg class="social-icon" aria-label="instagram icon">
+                  <use href="assets/sprites.svg#instagram-icon"></use>
+               </svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" aria-label="link to facebook">
+               <svg class="social-icon" aria-label="facebook icon">
+                  <use href="assets/sprites.svg#facebook-icon"></use>
+               </svg>
+            </a>
+         </address>
+         <p class="contacts-info" aria-label="just for notice">
+            More works you can see in&nbsp;these social networks
+         </p>
+      </div>
+   </footer>
 </body>
 
 </html>
