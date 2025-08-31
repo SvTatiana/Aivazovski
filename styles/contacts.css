@@ -8,26 +8,26 @@
    font-size: 34px;
    font-weight: 700;
    color: var(--color-main-black);
-   margin-bottom: 75px;
+margin-bottom: 75px;
 }
 
-.contacts-btn {
-   width: 210px;
-   height: 42px;
-   background-color: var(--color-main-black);
-   color: var(--color-main);
-   border: none;
-   border-radius: 21px;
-   margin-bottom: 35px;
-}
+
 
 .contacts-btn:hover {
    opacity: .8;
 }
 
 .button-link {
+  width: 210px;
+   height: 42px;
+   background-color: var(--color-main-black);
+padding: 6px 11px 7px 15px;
+   border: none;
+   border-radius: 21px;
+   margin-bottom: 35px;
    font-size: 24px;
    font-weight: 500;
+   color: var(--color-main);
 }
 
 .socials {
@@ -36,6 +36,7 @@
    align-items: center;
    margin: 0 auto;
    gap: 30px;
+   margin-top: 35px;
 }
 
 .social-icon {
