@@ -1,5 +1,5 @@
-# Aivazovski page
+# AVION
 
 ```
-Russian marine painter of Armenian origin, collector, philanthropist
+The furniture brand for the future, with timeless designs
 ```
